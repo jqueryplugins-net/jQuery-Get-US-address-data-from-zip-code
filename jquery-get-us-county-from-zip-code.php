@@ -70,7 +70,7 @@ function getAddressInfoByZip(zip){
   }
 }</script>
 <!--add the output HTML -->
-<form><strong> Enter Zip:</strong> <input type="text" name="zip" value="55068"> <a href="#" class="btn" onclick="getLocation()">Get US Address Data From Zip Code -></a></form>
+<form><strong> Enter Zip:</strong> <input type="text" name="zip" value="55068"> <a href="javascript:void(0)" class="btn" onclick="getLocation()">Get US Address Data From Zip Code -></a></form>
 <div id="county">County: <span>________</span></div> 
 <div id="city">City: <span>________</span></div>
 <div id="state">State: <span>________</span></div>
